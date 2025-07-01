@@ -14,14 +14,18 @@ a {
   text-decoration: none;
 }
 
-/* header */
-
 #container {
   background: #ede9cc;
   margin: 0 auto;
   min-width: 740px;
   max-width: 1180px;
 }
+
+#clear{
+  clear: both;
+}
+
+/* header */
 
 #top {
   position: relative;
@@ -100,7 +104,7 @@ ul#nav {
   float: left;
 }
 
-ul#nav a{
+ul#nav a {
   text-transform: uppercase;
   font-size: 0.8em;
   padding: 5px;
@@ -112,9 +116,26 @@ ul#nav a:hover {
   background: #fdf6be;
 }
 
-
 .declaration {
   width: 226px;
   height: 164px;
   float: right;
+}
+
+/* section 1 */
+
+#main-area {
+  float : left;
+  width: 50%;
+}
+
+#side-area{
+  float: right;
+  width: 50%;
+}
+
+.content {
+  margin: 0 auto;
+  width: 90%;
+  background: url(../img/bg-container.png) top center repeat-y;
 }
