@@ -25,6 +25,17 @@ a {
   clear: both;
 }
 
+h2 {
+  color: #7d7640;
+  font-size: 1.1em;
+  padding: 5px 0px;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
 /* header */
 
 #top {
@@ -122,7 +133,7 @@ ul#nav a:hover {
   float: right;
 }
 
-/* section 1 */
+/* section*/
 
 #main-area {
   float: left;
@@ -141,4 +152,39 @@ ul#nav a:hover {
 .content {
   margin: 0 auto;
   width: 90%;
+}
+
+#benefits li {
+  padding: 8px;
+  border-bottom: 1px solid #f3efcb;
+  height: 8em;
+}
+
+#benefits li a img {
+  float: left;
+  margin-right: 8px;
+}
+
+#benefits li a p {
+  color: #000;
+  font-size: 0.8em;
+}
+
+#benefits li a h3 {
+  font-size: 1em;
+  color: #615b2d;
+  padding: 5px 0;
+  background: url(../img/ornamento.png) no-repeat center right;
+}
+
+#benefits li:hover {
+  background: #f6f3d6;
+  cursor: pointer;
+}
+
+/* footer */
+.filler {
+  padding: 16px;
+  background: #fff url(../img/bg-rodape.png) top repeat-x;
+  color: #7d7340;
 }
