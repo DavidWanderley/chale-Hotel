@@ -15,13 +15,13 @@ a {
 }
 
 #container {
-  background: #ede9cc;
+  background: url(../img/bg-container.png) top center repeat-y;
   margin: 0 auto;
   min-width: 740px;
   max-width: 1180px;
 }
 
-#clear{
+#clear {
   clear: both;
 }
 
@@ -125,17 +125,20 @@ ul#nav a:hover {
 /* section 1 */
 
 #main-area {
-  float : left;
+  float: left;
   width: 50%;
+  background: url(../img/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0px;
 }
 
-#side-area{
+#side-area {
   float: right;
   width: 50%;
+  background: url(../img/bg-area-lateral.png) top left repeat-x;
+  padding: 20px 0px;
 }
 
 .content {
   margin: 0 auto;
   width: 90%;
-  background: url(../img/bg-container.png) top center repeat-y;
 }
